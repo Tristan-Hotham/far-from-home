@@ -1,0 +1,287 @@
+osm,name,key,km,verdict,reason
+node/21117238,Haddenham and Thame Parkway,thame,3.0,ok,Read by eye: the station is named after this place
+node/4524061408,Northumberland Park (Metro),northumberland park,3.0,unsure,Tyne and Wear Metro station; the matched Northumberland Park not verified
+node/19241063,Penshurst,penshurst,3.0,ok,Read by eye: the station is named after this place
+node/5766054217,London Marylebone,london,3.1,ok,Read by eye: the station is named after this place
+node/31098230,Treforest Estate,treforest,3.1,ok,Read by eye: the station is named after this place
+node/30747794,Warcop,warcop,3.1,ok,Read by eye: the station is named after this place
+node/1993437425,Cambridge North,cambridge,3.1,ok,Read by eye: the station is named after this place
+node/3310795821,Leek Brook,leek,3.1,ok,Read by eye: the station is named after this place
+node/20455337,Clarbeston Road,clarbeston,3.2,ok,Read by eye: the station is named after this place
+node/6745947210,Plumpton,plumpton,3.2,ok,Read by eye: the station is named after this place
+node/21118203,Saunderton,saunderton,3.2,ok,Read by eye: the station is named after this place
+node/290235759,Sandwell and Dudley,sandwell,3.2,ok,Read by eye: the station is named after this place
+node/252717146,Blackpool Pleasure Beach,blackpool,3.2,ok,Read by eye: the station is named after this place
+node/15825263,Cheltenham Racecourse,cheltenham,3.2,ok,Read by eye: the station is named after this place
+node/7158905928,Hemel Hempstead,hemel hempstead,3.2,ok,Read by eye: the station is named after this place
+node/4871665581,Box Hill & Westhumble,box hill,3.3,ok,Read by eye: the station is named after this place
+node/29673612,Romney Sands,romney,3.3,ok,Romney Hythe and Dymchurch Railway station for the Romney Sands holiday area; New Romney 3 km
+node/6774062201,Godstone,godstone,3.4,ok,Read by eye: the station is named after this place
+node/6923757987,Builth Road,builth,3.4,ok,Read by eye: the station is named after this place
+node/3637436408,London Liverpool Street,london,3.4,ok,Read by eye: the station is named after this place
+node/29647593,Wittersham Road,wittersham,3.4,ok,Read by eye: the station is named after this place
+node/1139057034,Leicester North,leicester,3.5,ok,Read by eye: the station is named after this place
+node/5114697934,London Fenchurch Street,london,3.5,ok,Read by eye: the station is named after this place
+node/7198867544,Ashwell & Morden,ashwell,3.5,ok,Read by eye: the station is named after this place
+node/36959293,Dudley Port,dudley,3.5,ok,Read by eye: the station is named after this place
+node/10055803287,Birkenhead North,birkenhead,3.6,ok,Read by eye: the station is named after this place
+node/6083524594,Southend Airport,southend,3.6,ok,Read by eye: the station is named after this place
+node/3464902054,Aylesbury Vale Parkway,aylesbury,3.6,ok,Read by eye: the station is named after this place
+node/7132105210,London Paddington,london,3.6,ok,Read by eye: the station is named after this place
+node/8757895760,Reading Green Park,reading,3.6,ok,Read by eye: the station is named after this place
+node/32037230,Kings Nympton,kings nympton,3.7,ok,Read by eye: the station is named after this place
+node/2003007164,Coventry Arena,coventry,3.7,ok,Read by eye: the station is named after this place
+node/7352772398,Preston Riverside,preston,3.7,ok,Read by eye: the station is named after this place
+node/12236139026,Mutford Thorpe,mutford,3.8,unsure,Not a station I could identify; not verified
+node/3680050752,St Helens Junction,st helens,3.8,ok,Read by eye: the station is named after this place
+node/113409558,Micheldever,micheldever,3.8,ok,Read by eye: the station is named after this place
+node/11336907005,Cambridge South,cambridge,3.8,ok,Read by eye: the station is named after this place
+node/49247569,Lakenheath,lakenheath,3.8,ok,Read by eye: the station is named after this place
+node/7156671023,Swineshead,swineshead,3.8,ok,Read by eye: the station is named after this place
+node/7170585072,Sudbury & Harrow Road,harrow,3.9,street,"Named after Harrow Road, the street"
+node/248924981,Roughton Road,roughton,4.0,ok,Read by eye: the station is named after this place
+node/210801667,Seaton Delaval,seaton delaval,4.0,coord,"Wikidata point for Seaton Delaval is identical to Seaton Sluice's, on the coast, not the village centre"
+node/6692612526,Barming,barming,4.0,unsure,Matched to East Barming; Barming station's own village not separately checked
+node/2438286491,Wandsworth Road,wandsworth,4.1,street,"Named after Wandsworth Road, the street"
+node/29034891,Hawarden Bridge,hawarden,4.1,ok,Named after the bridge at Shotton; Hawarden village is 4 km away
+node/253872552,Cam and Dursley,dursley,4.1,ok,Station between Cam and Dursley
+node/26404123,Glenrothes with Thornton,glenrothes,4.3,ok,"Station at Thornton, named also for Glenrothes"
+node/5475849013,Knockholt,knockholt,4.4,ok,"Station at Halstead, named after Knockholt village to the south"
+node/6605728692,Bodmin Parkway,bodmin,4.5,ok,Parkway station for Bodmin
+node/6878672847,Finchley Road & Frognal,finchley,4.5,street,"Named after Finchley Road, the street"
+node/151241042,Irton Road,irton,4.5,ok,Named after the road to Irton
+node/3711783203,Runcorn East,runcorn,4.8,ok,Station for east Runcorn
+node/5183760375,Finchley Road,finchley,4.8,street,"Named after Finchley Road, the street"
+node/12709995,Newton Dale Halt,newton,5.0,homonym,"Named after Newton Dale, the valley"
+node/8942072726,Appleby,appleby,5.4,unsure,A station near Scunthorpe matched to an Appleby 5 km away; not verified
+node/271281,Beaulieu Road,beaulieu,5.5,ok,Named after the road to Beaulieu
+node/6634567431,Southampton Airport Parkway,southampton,5.7,ok,Airport station for Southampton
+node/20975586,Dent,dent,5.8,ok,"Station high above Dentdale, below the fells"
+node/3824689657,Oxford Parkway,oxford,5.9,ok,Parkway station for Oxford at Water Eaton
+node/290235759,Sandwell and Dudley,dudley,6.0,ok,"Station at Oldbury, named for Sandwell and Dudley"
+node/6923758086,Llanbister Road,llanbister,6.7,ok,Named after the road to Llanbister
+node/7147511743,Brondesbury Park,brondesbury park,6.7,coord,The station is in Brondesbury Park; the Wikidata point is 7 km off
+node/8493342417,Pye Corner,pye corner,6.9,coord,"The station is at Pye Corner, Newport; the Wikidata point is 7 km off"
+node/6605149667,Bristol Parkway,bristol,7.7,ok,Parkway station for Bristol at Stoke Gifford
+node/21559341,Edinburgh Park,edinburgh,7.9,ok,Named after the Edinburgh Park business district
+node/5353113956,Edinburgh Gateway,edinburgh,8.3,ok,Interchange for Edinburgh Airport
+node/5462552522,Tottenham Court Road,tottenham,8.6,street,"Named after Tottenham Court Road, the street"
+node/7140201331,Liverpool South Parkway,liverpool,8.8,ok,Parkway station for Liverpool at Garston
+node/6605728699,Tiverton Parkway,tiverton,9.1,ok,Parkway station for Tiverton at Sampford Peverell
+node/7862969807,Drayton Green,drayton,9.4,homonym,"A district of Ealing, not West Drayton"
+node/25522884,Lea Hall,lea hall,9.5,coord,"The station is in Lea Hall, Birmingham; the Wikidata point is 9 km off"
+node/7814214089,Inverness Airport,inverness,11.6,ok,Airport station at Dalcross
+node/6143889613,London City Airport,london,12.2,ok,Airport station in the Docklands
+node/6715981413,Birmingham International,birmingham,12.4,ok,Airport and exhibition centre station near Solihull
+node/6661444856,Manchester Airport,manchester,12.8,ok,Airport station
+node/2314512860,Edgware Road,edgware,13.1,street,"Named after Edgware Road, the street"
+node/122077041,Pentre-bach,pentre bach,14.9,coord,"The station is at Pentre-bach, Merthyr Tydfil; matched to another point"
+node/3859688699,Oxford Road,oxford,15.0,street,"Manchester Oxford Road, named after the street"
+node/4038479312,Seahill,seahill,15.3,coord,"The station is at Seahill, County Down; the Wikidata point is 15 km off"
+node/6581364396,Moorside,moorside,19.0,homonym,A different Moorside
+node/246527118,Fairwater,fairwater,21.1,homonym,"Fairwater in Cardiff, matched to Fairwater in Torfaen"
+node/3152616514,Thornton Abbey,thornton,23.3,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/1910148507,Worth Halt,worth,24.1,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/1111955507,Penllyn,penllyn,24.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6419682398,Drayton Park,drayton,25.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7352763762,Hebron,hebron,28.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/344509548,Avon Riverside,avon,28.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6708840957,Trebah Halt,trebah,28.9,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6410209280,Latimer Road,latimer,29.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/3076574238,Roding Valley,roding,30.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/21671934,Lawrence Hill,lawrence hill,30.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/304363347,Overton for Ferry Meadows,overton,32.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/13612165825,Woodside Station,woodside,32.9,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/5764440887,Oatlands,oatlands,33.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/1264468143,Baker Street,baker street,34.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/3819241657,Manor Station,manor,34.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/14606892,Gatwick Airport,gatwick,37.2,coord,"Gatwick, the lost hamlet under the airport; the Wikidata point is 37 km off"
+node/30564108,Kings Park,kings park,37.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/24829827,Lea Green,lea,38.3,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/8324082437,Marsh Barton,marsh,38.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7158803343,Ham Street,ham,38.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/4060630434,Ballycarry,ballycarry,39.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7287514085,Ashfield,ashfield,39.9,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/199220212,Thorpe Culvert,thorpe,40.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/2265968250,Energlyn & Churchill Park,churchill,40.8,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/3527041575,Brockham,brockham,40.8,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/2004679590,Bourne Again Junction,bourne,42.1,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/5863634797,London Road (Guildford),london,42.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6923757988,Pen-y-bont,pen y bont,42.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6137915989,St Margarets,st margarets,42.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/5063926917,Bradford Forster Square,bradford,43.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7209380367,Bradford Interchange,bradford,43.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/724207056,Forest Halt,forest,43.9,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6724844051,Crouch Hill,crouch,44.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/1397298210,Newlyn Halt,newlyn,46.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/736960191,Penrhyn,penrhyn,46.1,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/456315214,Pitsford and Brampton,brampton,47.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/21181679,Morfa Mawddach,morfa,47.3,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/26997597,Hillhead,hillhead,49.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/653033,Chester Road,chester,50.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/8205906583,Spring Road,spring,50.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/28100066,Brunswick,brunswick,50.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7774296085,California Crossing,california,50.9,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/1327562038,Waun-gron Park,waun gron,52.9,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/252502212,St Michaels,st michaels,55.3,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/906911861,Delph,delph,55.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/9377381079,Portway Park and Ride,portway,58.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6407577779,Green Park,green park,59.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/30669981,Crosshill,crosshill,61.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6137852415,Stansted Airport,stansted,61.6,homonym,"Named after the airport at Stansted Mountfitchet, not Stansted in Kent"
+node/1401608140,Cynfal,cynfal,62.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/21281543,Northwood Halt,northwood,64.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/4492377623,Chillingham Road,chillingham,64.1,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/4724042036,Beech Hurst Miniature Railway Station,beech,64.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/125759824,Birkhill,birkhill,66.9,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/35484410,Rose Hill Marple,rose hill,67.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/8321736512,Adderley Park,adderley,68.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7862969806,Castle Bar Park,castle,68.9,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7198867544,Ashwell & Morden,morden,70.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/1643615541,Hythe (Colchester),hythe,72.1,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/431370430,Nant Gwernol,nant,72.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/12920314580,Riverside Halt,riverside,72.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7354595305,Lakeside Central,lakeside,72.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6677056493,Ebbsfleet International,ebbsfleet,72.8,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/590740213,Furnace Sidings,furnace,73.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6745675389,London Road (Brighton),london,74.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/3660623412,Elephant & Castle,castle,75.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/5614077964,Oxford Circus,oxford,81.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/3089365411,Moor Road,moor,82.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/258586870,Pendre,pendre,84.8,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6137915990,Rye House,rye,85.3,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/12797189685,Park Gate,park gate,86.1,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6923757989,Llangynllo,llangynllo,90.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/90455818,Aber,aber,90.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/274914688,Marsh Mills,marsh,90.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/110101910,Green Lane,green lane,93.3,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/26500610,Broomhill,broomhill,94.3,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6486933493,Queensway,queensway,95.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/1400438441,Hendy,hendy,97.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7147570291,Langdon Park,langdon,100.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/1743208894,Hill Train Top,hill,104.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/1743208703,Hill Train Bottom,hill,104.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/70804547,Old Street,old,105.9,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/304363347,Overton for Ferry Meadows,ferry,107.1,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7197562013,Barnhill,barnhill,107.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7354527386,Riverside Station,riverside,107.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/2004616466,Somersham,somersham,110.1,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/3770290449,Halfway Station,halfway,112.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6460794385,Ladbroke Grove,ladbroke,112.9,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7154330909,Sandhills,sandhills,113.8,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/28377390,Holywell Halt,holywell,114.1,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/1841504351,Boston Lodge Halt,boston,114.3,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/256077877,Plas Halt,plas,115.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/10055803295,Manor Road,manor,115.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/1477345762,Rockingham,rockingham,118.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/258082507,Greenway Halt,greenway,120.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/5700149213,Canada Water,canada,122.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/1070248820,Ham Lane (FMR),ham,125.3,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7352825986,Halfway,halfway,126.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/1637578440,Bank,bank,127.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/5457046602,Warwick Avenue,warwick,128.1,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/46883759,Plas-y-nant,plas,129.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6312813705,Stamford Brook,stamford,130.1,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/5764439106,Old Kiln Halt,old,130.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/258586885,Brynglas,brynglas,131.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/8829329092,Waterside Station,waterside,132.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/264483626,Pentrepiod Halt,pentrepiod,133.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/718891703,Lakeside Halt,lakeside,136.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/3409666220,Riverside Halt,riverside,137.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/152294619,Broad Green,broad green,139.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/8833391152,Greenrigg Halt,greenrigg,140.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/3370671078,Leicester Square,leicester,142.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/5475675298,St. Paul's,st pauls,143.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/3510166604,Betws-y-Coed,betws,145.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6411792033,High Street Kensington,high street,147.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7354530317,Kingsway Station,kingsway,147.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6411992668,Gloucester Road,gloucester,148.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/252838671,Peartree,peartree,150.1,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/10055803283,Hamilton Square,hamilton,154.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/13796762387,Forge Halt,forge,154.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/247999402,Merryfield Lane,merryfield,156.3,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/3638779316,Piccadilly Circus,piccadilly,158.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/8361780629,Foxfield Colliery,foxfield,161.1,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/5455448905,Burlescombe,burlescombe,162.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/5182384970,Boston Manor,boston,165.8,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/29629143,Kingscote,kingscote,166.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7195733644,Kildonan,kildonan,168.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/5702714876,Moorgate,moorgate,170.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/2606101574,Walker Gardens,walker,170.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/10712619822,Cogan Halt,cogan,171.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/1270215766,Gilfach Ddu,gilfach,171.3,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/12232496700,Beaulieu Park,beaulieu,172.3,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/26087557,Reedham,reedham,179.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/1845470526,Beach Halt,beach,179.3,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/5469562564,All Saints,all saints,186.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6080982977,Green Road,green,189.8,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/534773954,Piccadilly,piccadilly,191.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/534773861,Chapel Road Station,chapel,191.9,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7147489878,Star Lane,star,196.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6309171430,The Valley Railway Adventure,the valley,196.3,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/1961614771,Portsmouth Arms,portsmouth,200.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/30004634,Shields Road,shields,201.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/25685792,Derby Road,derby,204.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6683971397,Vale of Rheidol,vale,205.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/3397248556,Kempton Park,kempton,207.3,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/10712619821,Oak Tree Halt,oak tree,207.8,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/30942049,Dingle Road,dingle,215.9,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7153736019,Moorfields,moorfields,218.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/13568075899,Lakeside,lakeside,222.8,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/1617706532,Steeple Grange,steeple,224.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/3637195703,City Thameslink,city,232.3,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6414086721,Warren Street,warren,234.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/5469584669,Abbey Road,abbey,235.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/208521082,Park Lane,park lane,237.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/4167036603,Inch Abbey,inch,240.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/4033022869,York Street,york,243.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/26512125,Oldfield Park,oldfield,249.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/4827663533,Forest Halt,forest,251.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/9068669816,Whitehead Lane,whitehead,254.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6745645280,Collington,collington,257.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/858361120,Oakwood Park Station,oakwood,263.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/3637449659,Cannon Street,cannon,267.6,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/4337914382,Bat & Ball,ball,279.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/29629192,Sheffield Park,sheffield,283.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/12286269903,Liverpool Street,liverpool,287.9,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/3076573915,Chancery Lane,chancery,288.1,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/4373177416,Warren Wood,warren,289.9,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/258591922,Pont Croesor Halt,pont,292.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/4038617198,City Hospital,city,295.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6411718929,Royal Oak,royal oak,297.1,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/11037354553,Lakeside,lakeside,299.9,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/255357280,Bank Hall,bank,301.8,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/13243463190,Erskine Halt,erskine,305.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/303812818,Wells-on-Sea,wells,308.1,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/30669985,Queens Park,queens park,308.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/442668611,Country Park Halt,country,315.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6797794418,Borough,borough,315.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/2426594090,Norden,norden,331.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/12300197300,Chapel Road,chapel,333.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/4492377642,St Peter's,st peters,337.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/9983096067,Moseley Junction (High Level),moseley,338.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/9983096068,Moseley Junction (Low Level),moseley,338.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/5504917479,Wood Lane,wood,339.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6543594082,Wood Street,wood,353.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/316787076,Shore,shore,357.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7351551721,Station B,station,364.8,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7351554622,Station A,station,364.8,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/29751012,St George's Cross,st georges,372.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/3773154592,Rice Lane,rice,379.2,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/388094272,Park Halt,park,380.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/6135489704,White Hart Lane,white,381.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/4038479317,Sydenham,sydenham,387.9,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/4492377630,Ilford Road,ilford,399.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7640779645,Station,station,418.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/4523848873,Bank Foot,bank,461.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7340963887,Chichester,chichester,463.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/27423937,Hillington East,hillington,464.9,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/27423935,Hillington West,hillington,465.8,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/29751011,Bridge Street,bridge street,529.1,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/3735864350,High Street,high street,534.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/30336696,St Andrews Road,st andrews,536.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/7149943412,Charing Cross (Glasgow),charing cross,555.8,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/30736985,Mount Vernon,mount,596.7,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/11816879913,Middle Engine Lane,middle,648.4,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/5846009453,Walls Lane,walls,792.5,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"
+node/254472748,Sheiling / Middle,middle,815.0,homonym,"Read by eye: a different place of the same name, or a street, estate, valley or feature named like a town"

@@ -1,0 +1,131 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\newfontfamily\headfont{Inter}[UprightFont=*-ExtraBold,BoldFont=*-ExtraBold,Extension=.otf,Path=/usr/share/fonts/opentype/inter/]
+\usepackage[a4paper,margin=2.3cm]{geometry}
+\usepackage{graphicx,booktabs,float,caption,array,xcolor,longtable}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage[round]{natbib}
+\usepackage{setspace}
+\setstretch{1.05}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.75}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\titleformat{\section}{\headfont\Large}{\thesection}{0.8em}{}
+\titleformat{\subsection}{\headfont\large}{\thesubsection}{0.8em}{}
+\captionsetup{font=small,labelfont=bf}
+\urlstyle{same}
+\hypersetup{pdftitle={Not Where It Says on the Ticket},pdfauthor={Tristan Hotham}}
+
+\begin{document}
+\begin{center}
+{\Large\bfseries Not Where It Says on the Ticket\par}
+\vspace{0.4em}
+{\large Airports and railway stations far from the places they are named after, from Wikidata and OpenStreetMap\par}
+\vspace{1.2em}
+{\large Tristan Hotham\par}
+\vspace{0.3em}
+{\small Independent researcher\\
+ORCID: 0000-0003-4931-9349\\
+DOI: https://doi.org/10.5281/zenodo.24087597\par}
+\vspace{0.8em}
+2026
+\end{center}
+
+\begin{quote}
+\small
+\begin{center}\textbf{Abstract}\end{center}
+Airports and railway stations carry the names of places, and sometimes the place is a long way off. I measure the straight-line distance from {{air_n.ranked|int}} airports with an IATA code to the places they are named after, using Wikidata's places served, airport labels, Natural Earth towns and {{air_n.marketed|int}} names under which airlines sell secondary airports, and from {{st_n.matched|int}} railway stations and halts in the United Kingdom to the settlement that begins their name. Half the airports lie within {{air_median_km|f1}} km of their namesake and {{air_over30_pc|f1}}\% lie more than 30 km away. The farthest confirmed cases are Châlons Vatry, sold as Paris-Vatry ({{air.XCR.km|f1}} km from Paris), Chicago Rockford ({{air.RFD.km|f1}} km), Tongren Dejiang ({{air.DEJ.km|f1}} km), Frankfurt-Hahn ({{air.HHN.km|f1}} km) and Memmingen, sold as Munich West ({{air.FMM.km|f1}} km); {{air_world_secondary_n|word}} of the fifteen farthest are second airports for a city that has a closer one. In Britain, London Oxford Airport is {{air.OXF.km|f1}} km from London. Stations are tighter: half lie within {{st_median_km|f2}} km of the settlement in their name and {{st_over2_n|int}} lie 2 km or more away, the farthest being airport stations, parkways and the Victorian ``Road'' stations, of which {{road.away2|int}} are named after a village 2 km or more distant. Because rankings concentrate data errors, every airport case of 40 km or more and every station match of 3 km or more was read by eye: {{air_review.corrected_pc|f1}}\% of the {{air_review.n|int}} airport cases and {{st_review.corrected_pc|f1}}\% of the {{st_review.n|int}} station matches were wrong links, homonyms, streets, regions or unresolved.
+
+\textbf{Keywords:} airports; railway stations; place names; secondary airports; low-cost airlines; Wikidata; OpenStreetMap; data quality
+\end{quote}
+
+\section{Introduction}
+A ticket to Frankfurt that lands at Hahn, in the Hunsrück hills, is a familiar complaint about low-cost air travel. Many airports named after a city some way off took those names in the 1990s and 2000s, when low-cost airlines moved into former military fields and regional airports and sold them under the name of the nearest large city. Railway names stretch too: the Victorian companies built stations named ``Road'' for villages some distance down the road, and the modern railway has its parkways and airport stations. This paper asks how far the names stretch. It measures, for every airport in Wikidata with an IATA code and for every railway station in the United Kingdom in OpenStreetMap, the distance to the place in its name, and ranks the far cases.
+
+A ranking is only as good as its head, and the head of a ranking by distance is where data errors collect: a link to the wrong town of the same name, a coordinate in the wrong hemisphere, a district standing in for a city. The method therefore pairs simple automatic matching with a complete reading by eye of every long case, and the overrides are released with the data.
+
+\section{Data}
+\textbf{Airports.} A Wikidata query (run with QLever; \citealt{bast2017}) returned {{air_n.airports|int}} airports with an IATA or ICAO code and coordinates, of which {{air_n.iata|int}} have an IATA code, with country, annual passengers where recorded ({{air_n.pax|int}} airports; I take the largest recorded annual value), and each place served (property P931) with its label, coordinates and population. The rows come one per combination of values, so I aggregated them to one record per airport and one per airport and place. Wikidata is a collaboratively edited knowledge base \citep{vrandecic2014}.
+
+\textbf{Stations.} OpenStreetMap \citep{haklay2008} nodes and ways in the UK tagged \texttt{railway=station} or \texttt{railway=halt}, with their name, three-letter CRS code where tagged, and first coordinate: {{st_n.stations|int}} stations after merging points of the same name within 1 km, {{st_n.national_rail|int}} of them with a CRS code (National Rail). The rest are heritage, metro, tram and miniature railway stations, and stations in Northern Ireland, where CRS codes are not tagged.
+
+\textbf{Settlements and towns.} Wikidata settlements in the UK with coordinates, population and type (village, hamlet, town, city, suburb and similar), and Natural Earth populated places and countries \citep{naturalearth}.
+
+\section{Methods}
+\subsection{Airports and their namesakes}
+An airport's namesake must be a place it is named after, not just a place it serves: Wikidata's places served include regions, islands and, for some airports, a list of destinations. A place served counts as a namesake when its English label, or a short form of it (``Freiburg'' for Freiburg im Breisgau), appears as whole words in the airport's English label. Where no place served carries a name in the label, a Natural Earth town of the same country whose name is in the label also counts, if it lies within 150 km (a town of the same name farther away is a namesake by chance); such towns are matched to the Wikidata place of the same name within 30 km where one exists, so that all the airports named after one city are grouped. Because Wikidata labels several secondary airports by their local names, I added {{air_n.marketed|int}} names under which airlines have sold them (Table~\ref{tab:mk}). When an airport names several places, it is ranked by the farthest. Distances are great-circle distances from the airport's point to the nearest of the place's points. An airport is a \emph{second airport} for its city when another airport named after the same city is closer to it. For a measure relative to city size, I divide the distance by the radius of a notional circle holding the city's population at 3,000 people per km$^2$ (cities of 100,000 or more).
+
+\subsection{Stations and their namesakes}
+Each station name is split into parts at ``and'', ``\&'', ``for'' and ``/''. In each part, the longest run of leading words that is the normalised name of a UK settlement is the candidate namesake; settlements are also indexed under common short forms (Southend for Southend-on-Sea, Builth for Builth Wells, Harling for East Harling, Burton for Burton upon Trent), which are used only if they are more than 5 km nearer than any full-name match. Where a station's whole name is itself a village that grew round it (Builth Road, Clarbeston Road), the village named in it is also looked for. The station is measured to the nearest settlement of that name, and its namesake is the farthest of its parts. I also report the distance beyond a notional circle round the settlement, sized by its population at 3,000 people per km$^2$, so that stations inside big cities do not dominate.
+
+\subsection{Checks by eye}
+Every airport namesake of 40 km or more with an IATA code ({{air_review.n|int}} cases) and every station match of 3 km or more ({{st_review.n|int}}) was read by eye and given a verdict, recorded in \texttt{code/overrides\_airports.csv} and \texttt{code/overrides\_stations.csv}: kept, a wrong link or coordinate, a region or island, a homonym, a street, or unsure. Only kept cases enter the rankings.
+
+\section{Results}
+\subsection{How far airports stand from their names}
+Half of the {{air_n.ranked|int}} airports lie within {{air_median_km|f1}} km of the place they are named after; {{air_over30_pc|f1}}\% are more than 30 km away, {{air_over50_n|int}} are 50 km or more and {{air_over80_n|int}} are 80 km or more away (Figure~\ref{fig:spread}). The median is shortest in South America and Africa and longest in Asia and Europe (Table~\ref{tab:cont}).
+
+\begin{figure}[tbp]\centering\includegraphics[width=\linewidth]{f_spread.png}\caption{Distance from each airport to the place it is named after.}\label{fig:spread}\end{figure}
+
+{{TABLE_CONT}}
+
+The farthest confirmed cases (Figure~\ref{fig:world}, Table~\ref{tab:world}) are Châlons Vatry in Champagne, sold as Paris-Vatry, {{air.XCR.km|f1}} km from Paris; Chicago Rockford, {{air.RFD.km|f1}} km from Chicago; Tongren Dejiang, {{air.DEJ.km|f1}} km from Tongren; Frankfurt-Hahn, {{air.HHN.km|f1}} km from Frankfurt; and Memmingen, sold as Memmingen (Munich West), {{air.FMM.km|f1}} km from Munich. {{air_world_secondary_n|Word}} of the fifteen farthest are second airports: Stockholm Skavsta is {{air.NYO.times_main|f1}} times as far from Stockholm as Bromma, and Hahn {{air.HHN.times_main|f1}} times as far from Frankfurt as Frankfurt Airport. The {{air_world_other_n|word}} exceptions show other habits: Chinese airports are often named after the prefecture-level city as well as the county they stand in (Shaoyang Wugang, {{air.WGN.km|f1}} km from Shaoyang); New York Stewart, {{air.SWF.km|f1}} km from New York, is the only New York airport with the city in its English label in Wikidata (Kennedy, LaGuardia and Newark are linked to the city but not named after it); and Rize-Artvin, which serves two Turkish provinces from the Black Sea coast, is {{air.RZV.km|f1}} km from Artvin.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\linewidth]{f_world.png}\caption{The fifteen airports farthest from the place they are named after.}\label{fig:world}\end{figure}
+
+{{TABLE_WORLD}}
+
+Europe has more of the far cases than any other continent ({{air_over50_by_cont.Europe|int}} of the {{air_over50_n|int}} airports 50 km or more from their namesake; Figure~\ref{fig:europe}), almost all of them airports sold by low-cost airlines under a big city's name: Paris Beauvais ({{air.BVA.km|f1}} km), Barcelona Reus ({{air.REU.km|f1}} km) and Girona ({{air.GRO.km|f1}} km), Düsseldorf Weeze ({{air.NRN.km|f1}} km), Hamburg Lübeck ({{air.LBC.km|f1}} km), Milan Bergamo ({{air.BGY.km|f1}} km) and Brussels South Charleroi ({{air.CRL.km|f1}} km). Relative to city size, the most stretched are smaller cities with a distant airport: Melbourne Orlando is {{air_radii.0.radii|f1}} notional city radii from Orlando, Samaná El Catey {{air_radii.1.radii|f1}} from Samaná, and Frankfurt-Hahn, {{air_radii_hhn_rank|ordinal}}, {{air.HHN.radii|f1}} from Frankfurt.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\linewidth]{f_europe.png}\caption{European airports 30 km or more from the city they are named after.}\label{fig:europe}\end{figure}
+
+\subsection{Britain and Ireland}
+London stretches furthest: London Oxford Airport, at Kidlington, is {{air.OXF.km|f1}} km from London, London Southend {{air.SEN.km|f1}} km, Stansted {{air.STN.km|f1}} km, Luton {{air.LTN.km|f1}} km, Gatwick {{air.LGW.km|f1}} km and Heathrow {{air.LHR.km|f1}} km. Outside London the farthest are Glasgow Prestwick ({{air.PIK.km|f1}} km from Glasgow) and Doncaster Sheffield ({{air.DSA.km|f1}} km from Sheffield). Airports in the Republic of Ireland all lie within {{air_ie_max_km|int}} km of their towns; those with wider names are named after a county or region (Donegal, Connemara) and are excluded as regions, as are island airports such as the Isle of Man, Jersey, Guernsey and Islay.
+
+{{TABLE_UK}}
+
+\subsection{Stations}
+Of {{st_n.stations|int}} stations, {{st_n.matched|int}} ({{st_n.matched_pc|f1}}\%) have a name that begins with a UK settlement in Wikidata. Half lie within {{st_median_km|f2}} km of it; {{st_over2_n|int}} ({{st_over2_pc|f1}}\%) lie 2 km or more away and {{st_over5_n|int}} lie 5 km or more (Figure~\ref{fig:stmap}). Measured from the settlement's centre, the farthest are airport stations: Manchester Airport ({{st.manchester_airport.km|f1}} km), Birmingham International ({{st.birmingham_international.km|f1}} km), London City Airport ({{st.london_city_airport.km|f1}} km) and Inverness Airport ({{st.inverness_airport.km|f1}} km). These airport stations are named after the airport, not the town, and inherit its distance, so they are left out of the ranking beyond the town. Measured beyond a notional circle round the settlement, Tiverton Parkway leads ({{st.tiverton_parkway.edge_km|f1}} km beyond, {{st.tiverton_parkway.km|f1}} km from Tiverton), then Llanbister Road ({{st.llanbister_road.km|f1}} km), Dent ({{st.dent.km|f1}} km) and Beaulieu Road ({{st.beaulieu_road.km|f1}} km) (Table~\ref{tab:st}).
+
+\begin{figure}[tbp]\centering\includegraphics[width=0.92\linewidth]{f_stations_map.png}\caption{UK stations by distance to the settlement in their name; the ten farthest beyond a notional circle round the settlement, airport stations aside, are numbered.}\label{fig:stmap}\end{figure}
+
+{{TABLE_ST}}
+
+There are {{road.n|int}} stations with ``Road'' in their name ({{road.nr|int}} with a CRS code). Many are named after streets, as in London (Tottenham Court Road, Wandsworth Road) and Manchester (Oxford Road), and {{road.street|int}} matches were rejected as streets in the checks. {{road.away2|int}} are named after a village 2 km or more away (Figure~\ref{fig:kinds}): Llanbister Road, Beaulieu Road, Irton Road, Roughton Road, Wittersham Road, Builth Road, Clarbeston Road, Farningham Road and Harling Road. The {{parkway.n|int}} parkways have a median distance of {{parkway.median_km|f1}} km; the farthest are Tiverton Parkway, Liverpool South Parkway ({{st.liverpool_south_parkway.km|f1}} km) and Bristol Parkway ({{st.bristol_parkway.km|f1}} km).
+
+\begin{figure}[tbp]\centering\includegraphics[width=\linewidth]{f_kinds.png}\caption{Distance to the settlement in the name for Road stations, parkways and airport stations.}\label{fig:kinds}\end{figure}
+
+\subsection{What the checks found}
+Of the {{air_review.n|int}} airport cases of 40 km or more, {{air_review.ok|int}} were kept, {{air_review.wrong|int}} ({{air_review.wrong_pc|f1}}\%) were wrong links or coordinates, {{air_review.region|int}} named a region, island, county or country, and {{air_review.unsure|int}} could not be settled and were left out (Figure~\ref{fig:checks}). The wrong links are mostly to another place of the same name: Bathurst Island Airfield in the Northern Territory linked to Bathurst in New South Wales, Wilmington International in North Carolina linked to Wilmington in Delaware, Ibaraki Airport linked to Ibaraki city in Osaka rather than the prefecture, and pairs of Yichuns, Qianjiangs, Zhijiangs, Nagoyas and Heringsdorfs. Of the {{st_review.n|int}} station matches of 3 km or more, {{st_review.ok|int}} were kept, {{st_review.homonym|int}} were a different place of the same name or a station named after a district, valley or estate, {{st_review.street|int}} were streets, {{st_review.coord|int}} were coordinate errors and {{st_review.unsure|int}} were unsure. All {{st_review.over40|int}} station matches of 40 km or more were coincidences, usually because the station's real namesake is missing from the settlement list under that name.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\linewidth]{f_checks.png}\caption{Verdicts from reading every long case by eye.}\label{fig:checks}\end{figure}
+
+\section{Limitations}
+Straight-line distance from a point to a point is a crude measure: it ignores roads and rail, and a city's point in Wikidata is its centre, not its edge. Populations are those of the administrative unit (the city of Paris, not its region) and the notional circles assume a uniform density. Wikidata's places served and its UK settlement list are incomplete: an airport whose namesake is not linked, or whose name differs from the label of the place, is not measured, and some stations go unmatched (Bradford in West Yorkshire is missing from the settlement list). The marketing names are a short list from my own knowledge of how these airports were sold, each checked against airline or airport listings; others exist, names change, and several of these airports have since dropped the big city's name. Cases under 40 km (airports) and 3 km (stations) were not read by eye. Wikidata keeps closed airports (Oslo Fornebu, closed in 1998; Doncaster Sheffield, closed in 2022), and they count when deciding whether a city has a closer airport. Some verdicts rest on judgement, especially the regions and the unsure cases.
+
+\section{Conclusion}
+Most airports and stations are close to the place in their name: a few kilometres for airports, a few hundred metres for stations. The far cases are few and of a few kinds: second airports sold under a big city's name, often former military fields; Chinese airports named after their prefecture; airport stations and parkways; and the Victorian Road stations. Finding them in open data requires reading every long case, because at the head of a distance ranking most of what the data first says is wrong.
+
+\section*{Data and code availability}
+The interactive map is at \url{https://maps.tristanhotham.com/far-from-home/}. Code, the overrides and the derived tables are at \url{https://github.com/Tristan-Hotham/far-from-home} and archived with this paper at https://doi.org/10.5281/zenodo.24087597. Airport data are from Wikidata (CC0); station data are derived from OpenStreetMap (\copyright{} OpenStreetMap contributors) and released under the Open Database Licence; Natural Earth is public domain; text and figures CC BY 4.0; code MIT.
+
+\section*{AI statement}
+{{AI}}
+
+\begin{thebibliography}{10}
+\bibitem[Bast and Buchhold(2017)]{bast2017} Bast, H. and Buchhold, B. (2017) QLever: a query engine for efficient SPARQL+Text search. \textit{Proceedings of the 2017 ACM Conference on Information and Knowledge Management (CIKM)}, 647 to 656.
+\bibitem[Haklay and Weber(2008)]{haklay2008} Haklay, M. and Weber, P. (2008) OpenStreetMap: user-generated street maps. \textit{IEEE Pervasive Computing} 7(4), 12 to 18.
+\bibitem[Natural Earth(2026)]{naturalearth} Natural Earth (2026) Free vector and raster map data at 1:10m, 1:50m and 1:110m scales. \url{https://www.naturalearthdata.com/}.
+\bibitem[Vrandečić and Krötzsch(2014)]{vrandecic2014} Vrandečić, D. and Krötzsch, M. (2014) Wikidata: a free collaborative knowledgebase. \textit{Communications of the ACM} 57(10), 78 to 85.
+\end{thebibliography}
+
+\appendix
+\section{Names sold by airlines}
+{{TABLE_MK}}
+\end{document}

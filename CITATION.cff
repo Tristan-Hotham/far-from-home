@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "Not Where It Says on the Ticket: Airports and Railway Stations Far from the Places They Are Named After"
+type: dataset
+authors:
+  - family-names: Hotham
+    given-names: Tristan
+    orcid: "https://orcid.org/0000-0003-4931-9349"
+    affiliation: "Independent researcher"
+doi: "10.5281/zenodo.24087597"
+url: "https://maps.tristanhotham.com/far-from-home/"
+repository-code: "https://github.com/Tristan-Hotham/far-from-home"
+license: CC-BY-4.0
+keywords:
+  - "airports"
+  - "railway stations"
+  - "place names"
+  - "secondary airports"
+  - "low-cost airlines"
+  - "Wikidata"
+  - "OpenStreetMap"
+  - "data quality"
